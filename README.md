@@ -110,8 +110,8 @@ You can see the HTML report opening the [index.html](reports/e2e/index.html) fil
 
 ## Debugging
 
-You can debug the client-side code, adding breakpoints, inspect variables and see the call stack of the client-side application.
-You can use the IDE for debugging unit and end-to-end tests.
+You can debug the code, add breakpoints, inspect variables and view the application's call stack.
+Also, you can use the IDE for debugging unit and end-to-end tests.
 These functionalities are provided natively or based on plugins.
 You can debug tests in chrome inspector with `debugger` keyword if you run `npm run test:debug` or `npm run e2e:debug`.
 When you are using the debug scripts, you need to open the `chrome://inspect` page.

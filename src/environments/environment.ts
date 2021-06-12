@@ -1,6 +1,6 @@
 import { INestApplication } from '@nestjs/common';
 import { DocumentBuilder, OpenAPIObject, SwaggerModule } from '@nestjs/swagger';
-import { Environment } from './models';
+import { IEnvironment } from './i.environment';
 
 // This file can be replaced during build by using webpack plugin.
 // `nest build` replaces `environment.ts` with `environment.prod.ts`.
@@ -20,7 +20,7 @@ function swaggerInitializer(app: INestApplication): OpenAPIObject {
   return document;
 }
 
-export const environment: Environment = {
+export const environment: IEnvironment = {
   production: false,
   swaggerInitializer,
 };

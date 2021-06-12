@@ -1,7 +1,7 @@
 import { OpenAPIObject } from '@nestjs/swagger';
-import { Environment } from './models';
+import { IEnvironment } from './i.environment';
 
-export const environment: Environment = {
+export const environment: IEnvironment = {
   production: true,
   swaggerInitializer: () => ({} as OpenAPIObject),
 };

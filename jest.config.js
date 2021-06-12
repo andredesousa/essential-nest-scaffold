@@ -17,6 +17,7 @@ module.exports = {
       tsconfig: 'tsconfig.build.json',
     },
   },
+  coverageReporters: ['json', 'lcov', 'text-summary'],
   collectCoverageFrom: ['**/*.ts'],
   coverageDirectory: '../../reports/coverage',
   coverageThreshold: {

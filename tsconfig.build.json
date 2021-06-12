@@ -1,6 +1,5 @@
 {
   "extends": "./tsconfig.json",
-  "exclude": ["node_modules", "e2e", "dist", "reports", "**/*spec.ts"],
   "compilerOptions": {
     "sourceMap": true,
     "incremental": true
